@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBLACK">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_texto_principal"
+        android:hint="0"
+        android:textColorHint="@color/colorWHITE"
+        android:textColor="@color/colorWHITE"
+        android:gravity="end"
+        android:paddingRight="15dp"
+        android:textSize="90dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="C"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_c"/>
+
+        <Button
+            android:text="+/-"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_maismenos"/>
+
+        <Button
+            android:text="%"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_porcentagem"/>
+
+        <Button
+            style="@style/BotaoCalculadora"
+            android:background="@color/colorORANGE"
+            android:text="÷"
+            android:textColor="@color/colorWHITE"
+            android:id="@+id/id_botao_dividir"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:text="7"
+        style="@style/BotaoCalculadora"
+        android:id="@+id/id_botao_7"/>
+
+    <Button
+        android:text="8"
+        style="@style/BotaoCalculadora"
+        android:id="@+id/id_botao_8"/>
+
+    <Button
+        android:text="9"
+        style="@style/BotaoCalculadora"
+        android:id="@+id/id_botao_9"/>
+
+    <Button
+        style="@style/BotaoCalculadora"
+        android:background="@color/colorORANGE"
+        android:text="x"
+        android:textColor="@color/colorWHITE"
+        android:textAllCaps="false"
+        android:id="@+id/id_botao_multiplicar"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBLACK"
+        android:paddingTop="1dp">
+
+        <Button
+            android:text="4"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_4"/>
+
+        <Button
+            android:text="5"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_5"/>
+
+        <Button
+            android:text="6"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_6"/>
+
+        <Button
+            style="@style/BotaoCalculadora"
+            android:background="@color/colorORANGE"
+            android:text="-"
+            android:textColor="@color/colorWHITE"
+            android:id="@+id/id_botao_menos"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBLACK">
+
+        <Button
+            android:text="1"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_1"/>
+
+        <Button
+            android:text="2"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_2"/>
+
+        <Button
+            android:text="3"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_3"/>
+
+        <Button
+            android:background="@color/colorORANGE"
+            android:text="+"
+            style="@style/BotaoCalculadora"
+            android:textColor="@color/colorWHITE"
+            android:id="@+id/id_botao_mais" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorBLACK"
+        android:paddingTop="1dp">
+
+        <Button
+            android:text="0"
+            android:layout_width="182dp"
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_0"/>
+
+        <Button
+            android:text="."
+            style="@style/BotaoCalculadora"
+            android:id="@+id/id_botao_ponto" />
+
+        <Button
+            android:background="@color/colorORANGE"
+            android:text="="
+            style="@style/BotaoCalculadora"
+            android:textColor="@color/colorWHITE"
+            android:id="@+id/id_botao_igual" />
+
+    </LinearLayout>
+
+</LinearLayout>

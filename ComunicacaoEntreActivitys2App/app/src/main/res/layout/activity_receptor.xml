@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceptorActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome inserido:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/resposta_nome"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:id="@+id/texto_anterior_nome"
+            android:layout_toRightOf="@+id/resposta_nome" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobrenome inserido:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/resposta_sobrenome"/>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:id="@+id/texto_anterior_sobrenome"
+        android:layout_toRightOf="@+id/resposta_sobrenome"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Idade inserida:"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/resposta_idade"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:id="@+id/texto_anterior_idade"
+            android:layout_toRightOf="@+id/resposta_idade"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

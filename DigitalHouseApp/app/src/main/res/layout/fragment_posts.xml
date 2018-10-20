@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PostsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleview_post_id">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <!--<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:src="@drawable/dh"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Posts Posts PostsPostsPostsPostsPostsPostsPostsPostsPostsPosts
+        PostsPostsPostsPostsPostsPosts"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/botao_post_detalhe_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="Detalhes" />
+
+    </LinearLayout>-->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_plus_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        style="@style/FAB"
+        app:tint="@color/black"
+        app:srcCompat="@drawable/profile"/>
+</android.support.design.widget.CoordinatorLayout>
